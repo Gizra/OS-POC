@@ -1,1 +1,32 @@
 // SCSS goes here.
+
+header {
+  .gizra-logo {
+    font-weight: 400;
+  }
+
+  .gizra-logo__main {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 48px;
+    color: rgb(226, 112, 88);
+  }
+
+  .gizra-logo__edu {
+    font-size: 42px;
+    color: black;
+  }
+
+  .gizra-logo__icon {
+    
+    img {
+      height: 50px;
+      transform: rotate(12deg);
+      margin-bottom: 19px;
+      margin-left: -41px;
+    }
+  }
+}
+
+main {
+  min-height: 75vh;
+}
