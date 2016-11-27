@@ -29,4 +29,22 @@ header {
 
 main {
   min-height: 75vh;
+  
+  .spin_choice__header {
+    margin-bottom: 25px;
+    font-size: 48px;
+    text-align: center;
+    color: #808285;
+  }
+  .spin_choice__choices {
+    display: flex;    
+    flex-flow: wrap;
+
+  }
+  
+  .spin_choice__choice {
+    text-align: center;
+    flex: 1 1 30%;
+    margin: 0 auto;
+  }
 }
